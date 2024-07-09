@@ -25,3 +25,6 @@ properti yang kita definisika pada item :
  - flex-grow : (num) untuk mengakur ukuran secara dinamis (panjang baris)
  - align-self : (num) untuk mengatur posisi secara vertikal satu item saja 
  - box-sizing : border-box > tidak merubah ukuran box
+ - border-radius (num) > supaya ujungnya bulat
+
+ 

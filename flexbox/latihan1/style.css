@@ -32,3 +32,55 @@ body {
     flex: 1;
 }
 
+
+.container-dua{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+.service {
+    background-color:#142d4c ;
+    width: 200px;
+    margin: 10px 5px;
+    color: #ddd;
+    padding: 5px;
+
+}
+
+.container-tiga {    
+
+}
+
+.thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail img {
+    width: 200px;
+    margin: 5px;
+}
+
+.container-lima {
+    display: flex;
+    margin: 10px auto;
+    width: 98%;
+    height: 300px;
+    border: 1px solid #747474;
+    background-color: #fff;
+}
+
+.kotak {
+    margin: auto;
+}
+
+.container-empat {
+    
+}
+
