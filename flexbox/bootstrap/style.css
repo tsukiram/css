@@ -1,0 +1,23 @@
+
+body{
+    overflow-x: hidden ;
+}
+.navbar-brand{
+    font-family: "Pacifico", cursive;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+body section:nth-child(2){
+    padding-top: 6rem;
+}
+.bg-sect{
+    background-color: #ECF0F1;
+}
+
+
+
+
