@@ -29,7 +29,7 @@ footer{
 
 footer .ngl{
     display: flex;
-    width: 400px;
+    width: 500px;
     position: relative;
     padding-bottom: 300px;
 }
@@ -46,21 +46,36 @@ footer .ngl .btn:hover {
     transform: scale(1.1); /* Membesarkan saat di-hover */
 }
 
-footer .ngl .bg {
-    width: 100%;
-    position: absolute;
-    right: 0;
-}
+
 
 footer .ngl .btn  img{
     width: 100%;
     border-radius: 0.5rem;
-    background-color: black;
 }
 
-footer .ngl .bg img{
-    width: 100%;
-    background-color: aqua;
+footer .ngl .bg {
+    position: absolute;
+    animation: slideshow 2s steps(3) infinite;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+@keyframes slideshow {
+    0%, 50% { 
+        width: 100%;
+        height: 100%;
+        background-image: url('img/ngl1.png'); }
+    51%, 60% { 
+        width: 100%;
+        height: 100%; 
+        background-image: url('img/ngl2.png'); }
+    61%, 90% { 
+        width: 100%;
+        background-image: url('img/ngl3.png'); }
+    91%, 100% { 
+        width: 100%;
+        height: 100%; 
+        background-image: url('img/ngl2.png'); }
 }
 
 
