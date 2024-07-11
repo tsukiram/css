@@ -21,3 +21,49 @@ body section:nth-child(2){
 
 
 
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer .ngl{
+    display: flex;
+    width: 400px;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+footer .ngl .btn {
+    width: 35%;
+    position: absolute;
+    top: 24%;
+    left: 14%;
+    transition: transform 0.5s; /* Menambahkan transisi */
+}
+
+footer .ngl .btn:hover {
+    transform: scale(1.1); /* Membesarkan saat di-hover */
+}
+
+footer .ngl .bg {
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+footer .ngl .btn  img{
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: black;
+}
+
+footer .ngl .bg img{
+    width: 100%;
+    background-color: aqua;
+}
+
+
+
+
+
